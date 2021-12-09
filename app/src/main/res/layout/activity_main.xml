@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast" />
+
+        <Button
+            android:id="@+id/snackbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar" />
+
+        <Button
+            android:id="@+id/snackbar_with_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar with action" />
+
+        <Button
+            android:id="@+id/alert_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog" />
+
+        <Button
+            android:id="@+id/alert_dialog_custom_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Custom View" />
+
+        <Button
+            android:id="@+id/dialog_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Fragment" />
+
+        <Button
+            android:id="@+id/dialog_fragment_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Fragment Custom" />
+
+        <Button
+            android:id="@+id/dialog_bottom_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet" />
+
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification" />
+
+        <Button
+            android:id="@+id/dialog_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog List" />
+
+        <Button
+            android:id="@+id/dialog_single_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Single Choice" />
+
+        <Button
+            android:id="@+id/dialog_multiple_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog Multiple Choice" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
